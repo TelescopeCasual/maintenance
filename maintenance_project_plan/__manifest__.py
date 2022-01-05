@@ -3,7 +3,7 @@
 {
     "name": "Maintenance Project Plans",
     "summary": "Adds project and task to a Maintenance Plan",
-    "version": "14.0.1.0.0",
+    "version": "15.0.1.0.0",
     "author": "Odoo Community Association (OCA), Solvos",
     "license": "AGPL-3",
     "category": "Maintenance",
