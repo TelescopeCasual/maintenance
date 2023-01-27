@@ -1,13 +1,14 @@
 # Copyright 2019 Solvos Consultoría Informática (<http://www.solvos.es>)
+# Copyright 2022 Telescope Casual Furniture
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
 {
     "name": "Maintenance Projects",
     "summary": "Adds projects to maintenance equipments and requests",
-    "version": "15.0.1.0.0",
-    "author": "Odoo Community Association (OCA), Solvos",
+    "version": "16.0.1.0.0",
+    "author": "Odoo Community Association (OCA), Solvos, Telescope Casual Furniture",
     "license": "AGPL-3",
     "category": "Maintenance",
-    "website": "https://github.com/OCA/maintenance",
+    "website": "https://github.com/telescopeCasual/maintenance",
     "depends": ["base_maintenance", "project"],
     "data": [
         "security/maintenance_project_security.xml",

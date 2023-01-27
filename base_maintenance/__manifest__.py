@@ -1,12 +1,13 @@
 # Copyright 2019 ForgeFlow S.L.
+# Copyright 2022 Telescope Casual Furniture
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).
 
 {
     "name": "Base Maintenance",
-    "version": "15.0.1.0.0",
-    "author": "ForgeFlow, Odoo Community Association (OCA)",
+    "version": "16.0.1.0.0",
+    "author": "ForgeFlow, Odoo Community Association (OCA), Telescope Casual Furniture",
     "development_status": "Beta",
-    "website": "https://github.com/OCA/maintenance",
+    "website": "https://github.com/telescopeCasual/maintenance",
     "category": "Maintenance",
     "license": "LGPL-3",
     "depends": ["maintenance"],

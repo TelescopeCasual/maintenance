@@ -1,11 +1,12 @@
 # © 2020 Solvos Consultoría Informática (<http://www.solvos.es>)
+# Copyright 2022 Telescope Casual Furniture
 # License AGPL-3 - See http://www.gnu.org/licenses/agpl-3.0.html
 {
     "name": "Maintenance Timesheets",
     "summary": "Adds timesheets to maintenance requests",
-    "author": "Odoo Community Association (OCA), Solvos",
+    "author": "Odoo Community Association (OCA), Solvos, Telescope Casual Furniture",
     "license": "AGPL-3",
-    "version": "15.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Human Resources",
     "website": "https://github.com/OCA/maintenance",
     "depends": ["base_maintenance", "maintenance_project", "hr_timesheet"],
