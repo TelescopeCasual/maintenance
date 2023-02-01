@@ -16,11 +16,12 @@ class AccountAnalyticLine(models.Model):
             self.project_id = self.maintenance_request_id.project_id
             self.task_id = self.maintenance_request_id.task_id
 
-    @api.model
-    def create(self, values):
-        if values.get("maintenance_request_id"):
-            self._check_request_done(values.get("maintenance_request_id"))
-        return super().create(values)
+    @api.model_create_multi
+    def create(self, vals_list):
+        for values in vals_list:
+            if values.get("maintenance_request_id"):
+                self._check_request_done(values.get("maintenance_request_id"))
+        return super().create(vals_list)
 
     def write(self, values):
         current_request = self.maintenance_request_id
